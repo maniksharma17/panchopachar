@@ -10,7 +10,7 @@ import learn from '../public/learn-icon.svg'
 
 
 const Program2 = () => {
-  return <div className='flex flex-row max-md:flex-col max-lg:gap-10 items-center justify-evenly max-md:pt-10 max-md:p-4 bg-[#e0ebe3] m-8 max-md:m-2'>
+  return <div className='flex flex-row max-md:flex-col max-lg:gap-10 items-center p-10 justify-evenly max-md:pt-10 max-md:p-4 bg-[#e0ebe3] m-8 max-md:m-2'>
 
     <div id='program2' className='w-full flex-col flex gap-6'>
       <div className='flex flex-row max-md:flex-col justify-between gap-6 items-center'>

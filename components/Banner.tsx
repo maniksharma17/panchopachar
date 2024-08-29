@@ -24,13 +24,13 @@ const Banner = () => {
 
 const CarouselSpacing = () => {
   return (
-    <Carousel className="w-3/4 m-auto mt-12">
+    <Carousel className="w-[85%] max-md:w-[90%] px-4 m-auto mt-8" orientation='horizontal'>
       <CarouselContent className="-ml-1">
         {BannerImages.map((item) => (
-          <CarouselItem key={item.title} className="pl-2 sm:basis-1/2 lg:basis-1/3">
+          <CarouselItem key={item.title} className="pl-2 m-0 sm:basis-1/2 lg:basis-1/3">
             
-              <Card className='border-none shadow-none p-0'>
-                <CardContent className="flex items-center justify-center p-0">
+              <Card className='border-none shadow-none p-0 m-0'>
+                <CardContent className="flex items-center justify-center p-0 m-0">
                   <Image className='' src={item.title} alt='banner-image' height={100} width={1000}>
                   </Image>
                 </CardContent>
