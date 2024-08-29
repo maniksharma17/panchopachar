@@ -5,10 +5,9 @@ import phone from '../public/phone.svg'
 import location from '../public/location-icon.svg'
 import mailIcon from "../public/mail-icon.svg"
 import ImageCarousel from './Carousel'
-import LocationQR from "../public/Location_qrcode.svg"
 
 const Program1 = () => {
-  return <div className='flex flex-col bg-gradient-to-r from-indigo-50 to-blue-100 max-lg:gap-10 items-center justify-evenly p-10 max-md:pt-10 max-md:p-4 m-8 max-md:m-2'>
+  return <div className='flex flex-col rounded-lg bg-gradient-to-r from-indigo-50 to-blue-100 max-lg:gap-10 items-center justify-evenly p-10 max-md:pt-10 max-md:p-4 m-8 max-md:m-2'>
 
     <div id='program1' className='w-fit flex-col flex gap-6'>
       <div className='flex flex-row max-md:flex-col gap-6 items-end'>
