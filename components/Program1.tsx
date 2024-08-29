@@ -10,9 +10,9 @@ const Program1 = () => {
   return <div className='flex flex-col rounded-lg bg-gradient-to-r from-indigo-50 to-blue-100 max-lg:gap-10 items-center justify-evenly p-10 max-md:pt-10 max-md:p-4 m-8 max-md:m-2'>
 
     <div id='program1' className='w-fit flex-col flex gap-6'>
-      <div className='flex flex-row max-md:flex-col gap-6 items-end'>
+      <div className='flex flex-row max-md:flex-col gap-6 items-end max-md:items-center'>
         <Image src={'/images/logo1.jpg'} alt='logo' height={100} width={100}></Image>
-        <h1 className='text-5xl max-md:text-2xl font-bold raleway-heading-one text-center'>YOGA TREATMENT MEDITATION RETREAT</h1>
+        <h1 className='text-5xl max-md:text-3xl font-bold raleway-heading-one text-center'>YOGA TREATMENT MEDITATION RETREAT</h1>
       </div>
 
       <p className='w-full max-md:pr-0 text-xl text-justify'>This package is a holistic experience combining enjoyment, travel, nature, self-discovery, and health. It offers thrilling adventures and serene moments, blending the excitement of new destinations with the tranquility of nature. Through exploration, participants discover not only the world but also themselves, fostering personal growth and mindfulness. The journey includes wellness activities such as yoga, meditation, and healthy eating, ensuring a balanced mind and body. It&apos;s a chance to disconnect from daily routines, embrace new experiences, and return rejuvenated, with a deeper understanding of oneself and a renewed sense of well-being.
@@ -21,7 +21,7 @@ const Program1 = () => {
       <ImageCarousel></ImageCarousel>
 
 
-      <div className='grid grid-cols-2 gap-3 w-full'>
+      <div className='grid grid-cols-2 max-md:grid-cols-1 gap-3 w-full'>
           <div className='flex flex-col inter-body bg-opacity-40 bg-gray-50 rounded-lg p-10'>
             <p className='text-xl font-light '>Pack your bags for:</p>
             <p className='text-2xl mb-5 font-bold '>13-16 September</p>
@@ -33,8 +33,8 @@ const Program1 = () => {
           </div>
 
           <div className='flex flex-col gap-2'>
-            <div className='text-lg p-8 flex flex-row justify-between gap-2 font-light bg-opacity-40 bg-gray-50 rounded-lg'>
-              <div className='flex flex-row gap-4 items-center'>
+            <div className='text-lg p-8 flex max-md:flex-col flex-row justify-between gap-2 font-light bg-opacity-40 bg-gray-50 rounded-lg'>
+              <div className='flex flex-row max-md:flex-col gap-4 items-start'>
                 <Image className='mb-1' src={location} alt='phone' height={20} width={20}></Image> 
                 <a target='_blank' href="https://maps.app.goo.gl/TAGbF2Woqq8HyEEw5" className='text-xl'>Panchopachar Wellness Resort,<br></br>Jadipani, Kanatal, Tehri Garhwal, Uttarakhand</a>
               </div>

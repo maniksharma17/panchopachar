@@ -11,7 +11,7 @@ import Image from 'next/image'
 
 const ImageCarousel = () => {
   return (
-    <Carousel className="w-[96%] m-auto mt-8" orientation='horizontal'>
+    <Carousel className="w-[96%] max-md:w-[90%] m-auto mt-8" orientation='horizontal'>
       <CarouselContent className="-ml-1">
         {BannerImages.map((item) => (
           <CarouselItem key={item.title} className="pl-1 items-center m-1 sm:basis-1/2 lg:basis-1/3">
