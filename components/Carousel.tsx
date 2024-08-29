@@ -16,7 +16,7 @@ const ImageCarousel = () => {
         {BannerImages.map((item) => (
           <CarouselItem key={item.title} className="pl-1 items-center m-1 sm:basis-1/2 lg:basis-1/3">
             
-              <Card className=''>
+              <Card className='border-none'>
                 <CardContent className="flex items-center justify-center p-0">
                   <Image className='rounded' src={item.title} alt='banner-image' height={100} width={1000}>
                   </Image>

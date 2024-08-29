@@ -7,8 +7,10 @@ import { SocialsMediaBanner } from "@/components/SocialsMediaBanner";
 
 export default function Home() {
   return <div>
-  <Navbar></Navbar>
-  <Banner></Banner>
+  <div className="img-bg">
+    <Navbar></Navbar>
+    <Banner></Banner>
+  </div>
   <Program1></Program1>
   <Mentors></Mentors>
   <SocialsMediaBanner></SocialsMediaBanner>
