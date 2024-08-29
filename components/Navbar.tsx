@@ -9,8 +9,8 @@ const Navbar = () => {
       <Image className='m-auto mt-10'
         src={'https://panchopachar.s3.ap-south-1.amazonaws.com/logo1.jpg'}
         alt='logo'
-        width={200}
-        height={200}
+        width={150}
+        height={150}
       ></Image>
 
       
