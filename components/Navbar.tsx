@@ -10,7 +10,7 @@ const Navbar = () => {
   return <div>
     <div className='flex flex-col p-5 items-center'>
       <Image className='m-auto'
-        src={'/logo2.jpg'}
+        src={'https://panchopachar.s3.ap-south-1.amazonaws.com/logo2.jpg'}
         alt='logo'
         width={180}
         height={180}

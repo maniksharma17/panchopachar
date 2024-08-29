@@ -46,12 +46,12 @@ const CarouselSpacing = () => {
 }
 
 const BannerImages = [
-  {title:'/images/bannerImage4.avif'}, 
-  {title:'/images/bannerImage5.avif'},
-  {title:'/images/bannerImage6.avif'},
-  {title:'/images/bannerImage3.jpg'},
-  {title:'/images/bannerImage1.avif'},
-  {title:'/images/bannerImage2.avif'}
+  {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/bannerImage4.avif'}, 
+  {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/bannerImage5.avif'},
+  {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/BannerImage6.avif'},
+  {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/bannerImage2.avif'},
+  {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/bannerImage1.avif'},
+  {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/bannerImage3.jpg'}
 ]
 
 export default Banner
