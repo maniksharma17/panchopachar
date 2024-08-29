@@ -10,11 +10,11 @@ const Banner = () => {
     </div>
 
     <div className='flex flex-col gap-2 items-center'>
-      <a href='https://panchopachar.com' target='_blank'><button className='raleway-heading-one bg-black text-white text-3xl py-2 px-8 hover:bg-gray-900 rounded-full'>
+      <a href='https://panchopachar.com' target='_blank'><button className='raleway-heading-one bg-black text-white max-md:text-xl text-3xl py-2 px-8 hover:bg-gray-900 rounded-full'>
         Visit us  &#8599;
       </button>
       </a>
-      <a href='#program1'><button className='raleway-heading-two bg-transparent border-white border-2 text-white text-lg py-2 px-8 hover:bg-white hover:text-black rounded-full'>
+      <a href='#program1'><button className='raleway-heading-two bg-transparent border-white border-2 text-white text-lg max-md:text-sm py-2 px-8 hover:bg-white hover:text-black rounded-full'>
         Yoga Treatment Meditation Retreat
       </button>
       </a>
