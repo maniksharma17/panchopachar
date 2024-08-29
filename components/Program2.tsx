@@ -10,16 +10,16 @@ import learn from '../public/learn-icon.svg'
 
 
 const Program2 = () => {
-  return <div className='flex flex-row max-md:flex-col max-lg:gap-10 items-center justify-evenly p-10 max-md:pt-10 max-md:p-4 bg-[#e0ebe3] m-8 max-md:m-2'>
+  return <div className='flex flex-row max-md:flex-col max-lg:gap-10 items-center justify-evenly max-md:pt-10 max-md:p-4 bg-[#e0ebe3] m-8 max-md:m-2'>
 
     <div id='program2' className='w-full flex-col flex gap-6'>
       <div className='flex flex-row max-md:flex-col justify-between gap-6 items-center'>
 
-        <div className='flex flex-row gap-8'>
+        <div className='flex flex-row max-md:flex-col gap-8 items-center'>
           <Image src={'/images/logo1.jpg'} alt='logo' height={100} width={100}></Image>
           <div>
-            <h1 className='text-2xl max-md:text-2xl font-normal raleway-heading-two w-fit'>Panchopachar presents</h1>
-            <h1 className='text-4xl block max-md:text-2xl text-green-900 font-bold raleway-heading-one w-fit'>THE 5:00 AM CLUB<br></br>40/30/20 Formula</h1>
+            <h1 className='text-2xl max-md:text-2xl font-normal raleway-heading-two'>Panchopachar presents</h1>
+            <h1 className='text-4xl block max-md:text-2xl text-green-900 font-bold raleway-heading-one text-center'>THE 5:00 AM CLUB<br></br>40/30/20 Formula</h1>
           </div>
         </div>
 
@@ -43,10 +43,10 @@ const Program2 = () => {
 
     <div className='flex flex-row max-md:grid max-md:grid-cols-2 max-md:mt-8 h-fit items-center gap-5'>
       {GridImages.map(item => {
-        return <div key={item.title} className='border border-black p-8 max-md:h-72 flex flex-col gap-2 items-left'>
+        return <div key={item.title} className='border border-black p-8 max-md:p-4 max-md:h-72 flex flex-col gap-2 items-left'>
           <Image src={item.icon} alt='icon' height={40} width={40}></Image>
           <p className='raleway-heading-two text-2xl'>{item.title}</p>
-          <p className='text-lg font-bold'>{item.desc}</p>
+          <p className='text-lg font-bold max-md:font-normal'>{item.desc}</p>
         </div>
       })}
     </div>

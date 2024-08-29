@@ -18,8 +18,10 @@ const Navbar = () => {
 
       <ul className='flex flex-row m-auto gap-2'>
         <li>
+          <a target='_blank'>
           <Image src={whatsappIcon} alt='whatsapp-icon' height={24} width={24}
           ></Image>
+          </a>
         </li>
 
         <li>

@@ -10,7 +10,7 @@ const Program1 = () => {
     <div id='program1' className='w-fit flex-col flex gap-6'>
       <div className='flex flex-row max-md:flex-col gap-6 items-center'>
         <Image src={'/images/logo1.jpg'} alt='logo' height={100} width={100}></Image>
-        <h1 className='text-3xl max-md:text-2xl font-bold raleway-heading-one w-fit'>Yoga Treatment Meditation Retreat</h1>
+        <h1 className='text-3xl max-md:text-2xl font-bold raleway-heading-one text-center'>Yoga Treatment Meditation Retreat</h1>
       </div>
 
       <p className='pr-10 max-md:pr-0 text-lg text-justify'>This package is a holistic experience combining enjoyment, travel, nature, self-discovery, and health. It offers thrilling adventures and serene moments, blending the excitement of new destinations with the tranquility of nature. Through exploration, participants discover not only the world but also themselves, fostering personal growth and mindfulness. The journey includes wellness activities such as yoga, meditation, and healthy eating, ensuring a balanced mind and body. It&apos;s a chance to disconnect from daily routines, embrace new experiences, and return rejuvenated, with a deeper understanding of oneself and a renewed sense of well-being.
