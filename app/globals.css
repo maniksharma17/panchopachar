@@ -78,14 +78,14 @@ html{
 .raleway-heading-one {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 800;
   font-style: normal;
 }
 
 .raleway-heading-two {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -102,7 +102,7 @@ html{
 }
 
 .img-bg{
-  background: linear-gradient(rgba(127, 127, 127, 0.5), rgba(49, 49, 49, 0.5)), url('https://panchopachar.s3.ap-south-1.amazonaws.com/banner.avif');
+  background: linear-gradient(rgba(95, 95, 95, 0.5), rgba(8, 8, 8, 0.5)), url('https://panchopachar.s3.ap-south-1.amazonaws.com/banner.avif');
   height: auto;
   width: 100%;
   background-size: cover;

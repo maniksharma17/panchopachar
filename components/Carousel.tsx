@@ -18,7 +18,7 @@ const ImageCarousel = () => {
             
               <Card className='border-none'>
                 <CardContent className="flex items-center justify-center p-0">
-                  <Image className='rounded' src={item.title} alt='banner-image' height={100} width={1000}>
+                  <Image className='rounded' src={item.title} alt='banner-image' height={100} width={600}>
                   </Image>
                 </CardContent>
               </Card>
@@ -33,11 +33,11 @@ const ImageCarousel = () => {
 }
 
 const BannerImages = [
-  {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/bannerImage1.jpeg'}, 
-  {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/bannerImage4.avif'},
+  {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/bannerImage1.jpg'}, 
+  {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/bannerImage2.jpg'},
   {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/bannerImage3.jpg'},
-  {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/bannerImage2.jpeg'},
-  {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/bannerImage5.jpeg'},
+  {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/bannerImage4.png'},
+  {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/bannerImage5.jpg'},
   {title:'https://panchopachar.s3.ap-south-1.amazonaws.com/bannerImage6.jpeg'},
 ]
 

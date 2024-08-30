@@ -8,7 +8,7 @@ import Image from 'next/image'
 
 const SocialMediaLinks = () => {
   return (
-    <ul className='flex flex-row gap-8 top-0 z-50'>
+    <ul className='flex flex-row gap-8 top-0 z-50 px-8'>
         <li>
           <a target='_blank' href='https://api.whatsapp.com/send/?phone=9669598478&text=Hello&type=phone_number&app_absent=0'>
           <Image src={whatsappIcon} alt='whatsapp-icon' height={48} width={48}
